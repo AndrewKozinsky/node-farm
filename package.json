@@ -1,0 +1,20 @@
+{
+  "name": "node-farm",
+  "version": "1.0.0",
+  "description": "A simple project with list of products at main page and pages with detailed information about each product.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "debug": "ndb index.js"
+  },
+  "keywords": [
+    "node.js",
+    "routing",
+    "farm"
+  ],
+  "author": "Andrew Kozinsky",
+  "license": "ISC",
+  "devDependencies": {
+    "ndb": "^1.1.5"
+  }
+}
